@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": "usr_g09o13k",
+      "username": "Romeo",
+      "email": "romeo@verona.it",
+      "passwordHash": "91ce0c40a439a3887038b924f9e99fa2f157e471b721f0b0307c4569cdfbe6d5c629f1395a658affd01d1e2a33f514a85940c039609112b9a85cdabf935cf91c",
+      "salt": "df0feffc5d7c032f6968a8b2822bef28",
+      "createdAt": "2026-09-03T15:50:54.367Z",
+      "updatedAt": "2026-09-03T15:50:54.367Z"
+    },
+    {
+      "id": "usr_y06kwkp",
+      "username": "TestHost",
+      "email": "test_host_1@test.com",
+      "passwordHash": "0de2d314c1304f65315297a4034f9571044bee28789371e7b99ecd72570d9543cf009a70748fba7fcd56ff9c580d1f6e2b396659287d93f9eca78403cc3e1266",
+      "salt": "3179da1f88275fd97f5ce5ebb4586c78",
+      "createdAt": "2026-09-03T16:02:00.128Z",
+      "updatedAt": "2026-09-03T16:02:00.128Z"
+    },
+    {
+      "id": "usr_0jalsi3",
+      "username": "PartnerJuliet",
+      "email": "juliet_partner@test.com",
+      "passwordHash": "f261a6c33f133b3d5b634e005527c986b43615af899e4c5424bcdac9da862a8c4bcb92d589ad75e42da04ad25c50f007c9cfffec5fe457921d41dee0a5db6dba",
+      "salt": "5bb2e04454dd68f7af5b2d0810543976",
+      "createdAt": "2026-09-03T16:02:21.076Z",
+      "updatedAt": "2026-09-03T16:02:21.076Z"
+    },
+    {
+      "id": "usr_kuhr7bo",
+      "username": "Intruder",
+      "email": "intruder@test.com",
+      "passwordHash": "2a4015b9a9d00a7c4a21350b54ea3c6c67842d21a984367532c9eab86ed6187bd8cf52ff26e7b5f82200e7dcf09ec542377b1ecb5982125bdf95783c98a9612e",
+      "salt": "7c0b5c0b75db1f34244690e51f31a647",
+      "createdAt": "2026-09-03T16:02:36.392Z",
+      "updatedAt": "2026-09-03T16:02:36.392Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room_hngmvue",
+      "roomCode": "RJ-7XJTK",
+      "hostId": "usr_y06kwkp",
+      "movieId": 76,
+      "movieMetadata": {
+        "id": 76,
+        "title": "Before Sunrise",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w1280/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
+        "releaseYear": "1995",
+        "rating": 8,
+        "overview": "An unexpected meeting on a train leads two travelers to spend an evening wandering through Vienna. As the night unfolds, they share stories and conversations about life and love, exploring new ideas while a quiet intimacy grows between them, knowing it may be their only night together."
+      },
+      "passwordHash": "970717891e2057f52fd2c5712720e53d004e2c974a4e47700d4d4f7e1acd304c972ecccd331bb88ce5b55127fb98657bcc809fd20f3421a6017ef0af299e6b90",
+      "salt": "efe2d9f0ac0b514acc0a40c2530d5a06",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-03T16:02:14.123Z",
+      "updatedAt": "2026-09-03T16:02:33.567Z"
+    }
+  ],
+  "participants": [
+    {
+      "id": "part_gcdhmz0",
+      "roomId": "room_hngmvue",
+      "userId": "usr_y06kwkp",
+      "username": "TestHost",
+      "joinedAt": "2026-09-03T16:02:14.124Z"
+    },
+    {
+      "id": "part_h3wposd",
+      "roomId": "room_hngmvue",
+      "userId": "usr_0jalsi3",
+      "username": "PartnerJuliet",
+      "joinedAt": "2026-09-03T16:02:33.567Z"
+    }
+  ],
+  "playbackStates": [
+    {
+      "id": "play_iz9y9yd",
+      "roomId": "room_hngmvue",
+      "currentTime": 0,
+      "isPlaying": false,
+      "updatedAt": "2026-09-03T16:02:14.124Z"
+    }
+  ],
+  "wishlists": [],
+  "messages": [
+    {
+      "id": "msg_ivvaguz",
+      "roomId": "room_hngmvue",
+      "userId": "usr_0jalsi3",
+      "username": "PartnerJuliet",
+      "message": "I am here with you ❤️",
+      "createdAt": "2026-09-03T16:02:47.092Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "45e6b6c122efee570f5fa88328dab17636203f21128477064e209eea953a47c1",
+      "userId": "usr_g09o13k",
+      "createdAt": "2026-09-03T15:50:54.368Z",
+      "expiresAt": "2026-10-03T15:50:54.368Z"
+    },
+    {
+      "token": "e73175dfc85816df4989506abc25caa1f3265b1c3af83dd5c1b9346596f2355e",
+      "userId": "usr_y06kwkp",
+      "createdAt": "2026-09-03T16:02:00.128Z",
+      "expiresAt": "2026-10-03T16:02:00.128Z"
+    },
+    {
+      "token": "94c79f4b3df21fafda70ec818d8887ba262393ba486076e97d48281baca4b687",
+      "userId": "usr_0jalsi3",
+      "createdAt": "2026-09-03T16:02:21.076Z",
+      "expiresAt": "2026-10-03T16:02:21.076Z"
+    },
+    {
+      "token": "83c3c55e609d025a951d64a3d239869f9bf248ec9cd6e7fc0b569ead4e07dc26",
+      "userId": "usr_kuhr7bo",
+      "createdAt": "2026-09-03T16:02:36.392Z",
+      "expiresAt": "2026-10-03T16:02:36.392Z"
+    }
+  ]
+}

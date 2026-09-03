@@ -1,0 +1,6 @@
+{
+  "name": "RimJim",
+  "description": "A private virtual movie-date web application designed for couples to watch movies together remotely with synchronized playback and chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
